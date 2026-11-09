@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Theme Changer -->
+        <div class="theme-changer">
+            <label for="color-picker" style="display: block; margin-bottom: 5px; font-size: 0.9em;
+            color: #ccc;">Change Theme:</label>
+            <input type="color" id="color-picker" value="#2c2c4a">
+        </div>
+        <h1>Tasks</h1>
+        <div class="input-area">
+            <input type="text" id="todo-input" placeholder="What needs to be done?">
+            <button id="add-btn">Add Task</button>
+        </div>
+        <!-- Filters Feature -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+        <ul id="todo-list">
+            <!-- Tasks will appear here dynamically -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
