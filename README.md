@@ -8,4 +8,5 @@ It's a list to remember the Tasks you want to do, Groceries we need to buy etc. 
 ## Features
 * 🎨 **Color Changer** to choose your own color for your background or the color I chose.
 * 📚 **Filter Tab** to have everything in order.
-* 💾 **Save Feature** to save every task you want to do.  
+* 💾 **Save Feature** to save every task you want to do.
+* 🛠 **Edit & Delete Feature** so you can edit and delete your tasks.
