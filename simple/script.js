@@ -10,7 +10,7 @@ let currentFilter = 'all';
 // --- Local Storage ---
 function loadTasks() {
     try {
-        const stored = JSON.parse(localStorage.getItem('tasks')) || [];
+        const stored = JSON.parse(localStorage.getItem('tasks-simple')) || [];
         // Old saved tasks have no id, so we give them one here
         return stored.map((task, index) => ({
             id: task.id ?? Date.now() + index,
@@ -23,7 +23,7 @@ function loadTasks() {
 }
 
 function saveTasks() {
-    localStorage.setItem('tasks', JSON.stringify(tasks));
+    localStorage.setItem('tasks-simple', JSON.stringify(tasks));
 }
 
 // --- Rendering ---
