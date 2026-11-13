@@ -1,6 +1,6 @@
-# **To-do-List**
+# **To-Do-List**
 
-My Todo-List with two versions (Simple version and Color-Changer version) and a Filter tab to have everything in order.
+My To-Do-List with two versions (Simple version and Color-Changer version) and a Filter tab to have everything in order.
 
 ## What It Is
 It's a list to remember the Tasks you want to do, Groceries we need to buy etc. With a Filter Tab to have everything organize and clean. You can **Edit** and **Delete** your tasks.
