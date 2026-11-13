@@ -1,4 +1,4 @@
-# **Todo-List**
+# **To-do-List**
 
 My Todo-List with two versions (Simple version and Color-Changer version) and a Filter tab to have everything in order.
 
